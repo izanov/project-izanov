@@ -1,0 +1,145 @@
+.banner-2 {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to right,  rgb(161, 108, 211), rgb(97, 76, 116));
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-card {
+  height: 200px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.author-card:hover .author-name,
+.author-card:hover .author-title,
+.author-card:hover .message {
+  color: black;
+}
+
+.notifications-icon {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  background-color: rgb(182, 1, 1);
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 21px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.author-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.author-picture {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
+.author-name {
+  font-size: 20px;
+  margin-left: 20px;
+  font-style: italic;
+  color: gray;
+  transition: 0.5s;
+}
+
+.author-title {
+  color: gray;
+  transition: 0.5s;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+
+  position: absolute;
+  top: 80px;
+  left: 110px;
+  right: 20px;
+}
+
+.message {
+  font-style: italic;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
+  .author-card {
+    height: 190px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    position: relative;
+  }
+  
+  .author-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .author-picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .author-name {
+    font-size: 18px;
+    margin-left: 10px;
+    font-style: italic;
+    color: gray;
+  }
+  
+  .author-title {
+    color: gray;
+  }
+  
+  .message-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    position: absolute;
+    top: 55px;
+    left: 80px;
+    right: 20px;
+  }
+  
+  .message {
+    font-style: italic;
+    font-size: 14px;
+  }
+}

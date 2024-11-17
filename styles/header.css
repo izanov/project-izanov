@@ -1,0 +1,175 @@
+.header {
+  background-color: rgb(194, 168, 219);
+  height: 80px;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(58, 0, 112);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  width: 250px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 80px;
+  width: 200px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+
+  background-color: rgb(194, 168, 219);
+  transition: background-color 0.5s;
+}
+
+.left-section:hover {
+  background-color: rgb(97, 76, 116);
+}
+
+.left-section:hover .page-title {
+  color:rgb(251, 246, 255);
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(97, 76, 116);
+  transition: color 0.5s;
+
+  white-space: nowrap;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 80px;
+  width: 100px;
+
+  background-color: rgb(194, 168, 219);
+  transition: background-color 0.5s;
+}
+
+.right-section:hover {
+  background-color: rgb(97, 76, 116);
+}
+
+.my-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.right-section .tooltip {
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 200px;
+  margin-right: 165px;
+  height: 100px;
+  width: 250px;
+
+  background-color: white;
+
+  border-style: hidden;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+  z-index: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+}
+
+.right-section:hover .tooltip {
+  opacity: 1;
+}
+
+.picture-tooltip {
+  width: 80px;
+  height: 80px;
+  border-radius: 42px;
+  object-fit: cover;
+}
+
+.pic-tooltip {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.info-tooltip {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.name-tooltip {
+  font-size: 18px;
+  font-family: Arial;
+  color: gray;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.author-tooltip {
+  font-size: 14px;
+  font-family: Arial;
+  color: gray;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.posts-tooltip {
+  display: flex;
+  flex-direction: row;
+}
+
+.posts-info-tooltip {
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+}
+
+.notifications-icon-tooltip {
+  background-color: rgb(182, 1, 1);
+  color: white;
+  font-family: Arial;
+  font-size: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 21px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+  margin-left: 10px;
+}
