@@ -18,16 +18,6 @@
 
 .text-block h1 {
   font-size: 50px;
-  font-style: italic;
-}
-
-.first-line {
-  margin-bottom: 5px;
-  font-size: 16px;
-}
-
-.second-line {
-  font-size: 16px;
 }
 
 .btn-primary {
@@ -38,8 +28,8 @@
   font-size: 15px;
   background: transparent;
   position: relative;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: -10px;
   transition: 0.5s;
 }
 
@@ -57,10 +47,12 @@
 .warning {
   font-size: 15px;
   color: white;
+  white-space: nowrap;
 }
 
 .warning-red {
   color: rgb(255, 56, 56);
+  margin-bottom: 2px;
 }
 
 .button-warning {
@@ -70,17 +62,16 @@
   align-items: center;
 }
 
-@media (min-width: 300px) and (max-width: 720px) {
+@media (min-width: 1px) and (max-width: 720px) {
   .banner-1 {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background: url("../images/banner-mobile.png") no-repeat;
     background-size: cover;
     position: relative;
   }
 
   .text-block {
-    width: 80%;
     color: white;
     position: absolute;
     top: 50%;
@@ -89,21 +80,10 @@
   }
   
   .text-block h1 {
-    font-size: 40px;
-    font-style: italic;
+    font-size: 30px;
     margin: 0;
     margin-bottom: 10px;
-  }
-  
-  .first-line {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-style: italic;
-  }
-
-  .second-line {
-    font-size: 14px;
-    font-style: italic;
+    color: linear-gradient(to right,  rgb(161, 108, 211), rgb(97, 76, 116));
   }
   
   .btn-primary {
@@ -114,8 +94,8 @@
     font-size: 15px;
     background: transparent;
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     transition: 0.5s;
   }
   
@@ -131,12 +111,13 @@
     }
   
   .warning {
-    font-size: 12px;
+    font-size: 11px;
     color: white;
   }
   
   .warning-red {
     color: rgb(255, 56, 56);
+    margin-bottom: 2px;
   }
   
   .button-warning {

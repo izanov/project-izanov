@@ -14,22 +14,24 @@
   }
   
   .about-title {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: color 0.5s;
-    width: 280px;
   
     position: absolute;
     top: 10px;
-    left: 0px;
+    right: 0;
+    left: 0;
+
+    text-align: center;
   
     background-color: rgb(97, 76, 116);
     transition: background-color 0.5s, color 0.5s;
   
     padding: 10px 10px;
     padding-right: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
   
     font-style: italic;
   
@@ -43,7 +45,6 @@
   
   .about-details {
     background-color: black;
-    width: 330px;
     height: 300px;
   
     display: flex;
@@ -51,7 +52,8 @@
   
     position: absolute;
     left: 0;
-    top: 73px;
+    right: 0;
+    top: 65px;
   }
   
   .about-details-title {
@@ -94,7 +96,27 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   }
 
+  .about-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s;
+    width: 280px;
+  
+    position: absolute;
+    top: 7px;
+    left: 0px;
+
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  .about-title:hover {
+    background-color: black;
+    color: rgb(0, 153, 115);
+  }
+
   .about-details {
+    top: 70px;
     height: 150px;
     width: 100%;
   }
