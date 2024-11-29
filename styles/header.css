@@ -173,3 +173,22 @@
 
   margin-left: 10px;
 }
+
+@media (max-width: 900px) {
+  .right-section:hover {
+    pointer-events: none;
+  }
+
+  .right-section:hover .tooltip {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .left-section:hover {
+    pointer-events: none;
+  }
+  
+  .left-section:hover .page-title {
+    pointer-events: none;
+  }
+}

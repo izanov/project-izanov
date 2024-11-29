@@ -70,11 +70,17 @@
 }
 
 .the_mentalist_season-3 {
+  display: none;
   border-radius: 8px;
   margin-bottom: -10px;
 }
 
-@media (max-width: 959px) {
+.the_mentalist_season-4 {
+  border-radius: 8px;
+  margin-bottom: -10px;
+}
+
+@media (max-width: 1304px) {
   .banner-4 {
     background-image: linear-gradient(to right, rgb(161, 108, 211), rgb(97, 76, 116));
   
@@ -141,6 +147,7 @@
     border-radius: 8px;
     margin-bottom: -10px;
   }
+
   .the_mentalist_season-2 {
     display: none;
     border-radius: 8px;
@@ -148,12 +155,18 @@
   }
 
   .the_mentalist_season-3 {
+    display: none;
+    border-radius: 8px;
+    margin-bottom: -10px;
+  }
+
+  .the_mentalist_season-4 {
     border-radius: 8px;
     margin-bottom: -10px;
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1305px) {
   .banner-4 {
     background: linear-gradient(to right, rgb(161, 108, 211), rgb(97, 76, 116));
   
@@ -209,6 +222,7 @@
     display: unset;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   }
+
   .the_mentalist_season-2 {
     height: 420px;
     width: 300px;
@@ -220,7 +234,19 @@
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .the_mentalist_season-3 {
+    height: 420px;
+    width: 300px;
+    border-radius: 8px;
+    margin-bottom: -10px;
+    display: unset;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+    margin-right: 10px;
+  }
+
+  .the_mentalist_season-4 {
     height: 420px;
     width: 300px;
     border-radius: 8px;
