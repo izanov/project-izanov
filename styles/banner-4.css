@@ -88,6 +88,12 @@
 }
 
 .the_mentalist_season-6 {
+  display: none;
+  border-radius: 8px;
+  margin-bottom: -10px;
+}
+
+.the_mentalist_season-7 {
   border-radius: 8px;
   margin-bottom: -10px;
 }
@@ -185,6 +191,15 @@
   }
 
   .the_mentalist_season-6 {
+    display: none;
+    border-radius: 8px;
+    margin-bottom: -10px;
+  }
+
+  .the_mentalist_season-7 {
+    height: 308px;
+    width: 220px;
+    
     border-radius: 8px;
     margin-bottom: -10px;
   }
@@ -286,6 +301,18 @@
   }
 
   .the_mentalist_season-6 {
+    border-radius: 8px;
+    margin-bottom: -10px;
+    display: unset;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+    margin-right: 10px;
+  }
+
+  .the_mentalist_season-7 {
+    height: 308px;
+    width: 220px;
+
     border-radius: 8px;
     margin-bottom: -10px;
     display: unset;

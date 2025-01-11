@@ -30,8 +30,8 @@
     transition: background-color 0.5s, color 0.5s;
   
     padding: 10px 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   
     font-style: italic;
   
@@ -133,8 +133,8 @@
     transition: background-color 0.5s, color 0.5s;
   
     padding: 10px 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
   
     font-style: italic;
   
